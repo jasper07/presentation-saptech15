@@ -1,0 +1,113 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Supercharge Your UI5 Developments By Adding Some Grunt
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:300,600', rel='stylesheet', type='text/css')
+
+  body
+
+    article
+
+      section(data-bespoke-state="blue")
+        h2 Supercharge Your UI5 Developments By Adding Some Grunt
+        br
+        h3
+           &mdash; John Patterson &mdash;
+
+        h3
+          img.avatar.avatar--small(src='images/ned2_bigger.jpg')
+
+        h3  
+         a(href='https://twitter.com/jasper_07') @jasper_07
+     
+        h3 #saptech15
+
+      section.light.gif.gif--bush(data-bespoke-state="grey")
+        h2 &#60;insert caption here!!&#62;
+         
+      section.gif.gif--ocean
+        h1 Agenda
+        h3.bullet 
+        h2.bullet Why you need a development process
+        h2.bullet Automate tasks with Grunt
+        h2.bullet Real World Demo
+
+      section.gif.gif--bean(data-bespoke-state="black")
+
+      section.gif.gif--herdingcats(data-bespoke-state='black')
+        h1 avoid cat wrangling
+        //http://i.imgur.com/Yj9Xe2A.gif  
+
+      section.gif.gif--owl(data-bespoke-state='white')
+
+      section.gif.gif--starloop(data-bespoke-state='black')
+        h1 the problem
+        .bullet Your team will have varying levels of expertise <br> and time to learn
+        
+      section.light(data-bespoke-state='green')
+        h1 the solution
+        .bullet
+        .bullet follow JavaScript best practice
+        .bullet break the development process into tasks 
+
+      section.gif.gif--spinning-plates
+        h2  Web Development  
+
+      section.gif.gif--kitchen-sink(data-bespoke-state='white')
+
+      section
+       h2 Grunt makes you more efficient
+       .bullet
+       h3.bullet  Development
+       h3.bullet Analyze
+       h3.bullet Test
+       h3.bullet Build
+       h3.bullet Deploy
+      // and beyond bullet Continuous Integration
+
+      section.light(data-bespoke-state='green')
+       h1 Work Smarter, Not Harder
+
+      section
+        h2 Gruntfile = tasks & targets
+        pre.language-javascript
+          code.
+                lint: {
+                  src: 'src/&lt;%= pkg.name %&gt;.js'
+                },
+                uglify: {
+                  build: {
+                     src: 'src/<%= pkg.name %>.js',
+                     dest: 'build/&lt;%= pkg.name %&gt;.min.js'
+                  }
+                }   
+      section(data-bespoke-state='blue') 
+        h1 Grunt in a Nutshell
+        h2 Javascript task runner
+        h2 Configuration over code
+        h2 4000+ Plugins
+
+      section
+        h2 The advantage of Grunt
+        .bullet  
+         h3.bullet Improve quality
+         h3.bullet Deliver faster
+         h3.bullet Repeatable & consistent
+         h3.bullet Lots of useful plugins
+         h3.bullet Integrates into CI
+
+      section.gif.gif--ocean
+        h2 Takeaways
+
+      section(data-bespoke-state="blue")
+         h2 Questions
+         h2 &
+         h2 Answers   
+
+
+
+    script(src='build/build.js')

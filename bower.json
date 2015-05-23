@@ -1,0 +1,7 @@
+{
+  "name": "presentation-supercharge-your-ui5-developments-by-adding-some-grunt",
+  "version": "0.0.0",
+  "dependencies": {
+    "prism": "gh-pages"
+  }
+}
